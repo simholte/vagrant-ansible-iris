@@ -1,0 +1,8 @@
+---
+- name: iristest
+  box: fedora/23-cloud-base
+  ram: 2048
+  cpus: 2
+  ip: 192.168.33.101
+  ports:
+    - {guest: 80, host: 8080}

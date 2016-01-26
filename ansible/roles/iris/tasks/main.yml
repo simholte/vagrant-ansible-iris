@@ -1,0 +1,12 @@
+---
+
+- name: install iris
+  dnf: name=http://iris.dot.state.mn.us/rpms/iris-4.30.0-1.noarch.rpm state=present
+  register: iris_installed
+
+- name: initialize iris
+  command: 'iris_ctl init'
+  when: iris_installed.changed
+
+- name: Start the Iris Service
+  command: 'systemctl start iris.service'
