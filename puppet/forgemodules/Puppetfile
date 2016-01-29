@@ -1,0 +1,8 @@
+# /etc/puppet/Puppetfile
+# deploy cmd: r10k puppetfile install
+forge "http://forge.puppetlabs.com"
+
+
+mod "puppetlabs/stdlib", "4.3.2"
+mod "nanliu/staging", "1.0.3"
+
