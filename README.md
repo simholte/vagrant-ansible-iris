@@ -6,7 +6,7 @@ You need to have [https://www.vagrantup.com](Vagrant) and [https://www.virtualbo
 
 For Windows machine you can use my Chocolately script to install Vagrant and Virtual Box [​https://raw.githubusercontent.com/simholte/util-scripts/master/choco_vagrant_virtualbox.ps1](Chocolately Script)
 
-For Mac OS assuing your using HomeBre and Cask you can use the below one liner
+For Mac OS assuing your using HomeBrew and Cask you can use the below one liner
 ```shell
 brew cask install virtualbox && brew cask install vagrant && brew cask install vagrant-manager
 ```
